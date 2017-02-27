@@ -1,0 +1,175 @@
+******************************************************
+1P -> 1C (virtual topic) :: 1 GB Heap :: Single Broker
+******************************************************
+Producer:
+#########################################
+####    SYSTEM THROUGHPUT SUMMARY    ####
+#########################################
+System Total Throughput: 995983
+System Total Clients: 1
+System Average Throughput: 5533.238888888889
+System Average Throughput Excluding Min/Max: 5476.2
+System Average Client Throughput: 5533.238888888889
+System Average Client Throughput Excluding Min/Max: 5476.2
+Min Client Throughput Per Sample: clientName=JmsProducer0, value=4524
+Max Client Throughput Per Sample: clientName=JmsProducer0, value=5743
+Min Client Total Throughput: clientName=JmsProducer0, value=995983
+Max Client Total Throughput: clientName=JmsProducer0, value=995983
+Min Average Client Throughput: clientName=JmsProducer0, value=5533.238888888889
+Max Average Client Throughput: clientName=JmsProducer0, value=5533.238888888889
+Min Average Client Throughput Excluding Min/Max: clientName=JmsProducer0, value=5476.2
+Max Average Client Throughput Excluding Min/Max: clientName=JmsProducer0, value=5476.2
+[INFO] Created performance report: /Users/ceposta/dev/idea-workspace/activemq/activemq-perftest/./JmsProducer_numClients1_numDests1_all.xml
+
+
+Consumer:
+#########################################
+####    SYSTEM THROUGHPUT SUMMARY    ####
+#########################################
+System Total Throughput: 995983
+System Total Clients: 1
+System Average Throughput: 5533.238888888889
+System Average Throughput Excluding Min/Max: 5475.3
+System Average Client Throughput: 5533.238888888889
+System Average Client Throughput Excluding Min/Max: 5475.3
+Min Client Throughput Per Sample: clientName=JmsConsumer0, value=4691
+Max Client Throughput Per Sample: clientName=JmsConsumer0, value=5738
+Min Client Total Throughput: clientName=JmsConsumer0, value=995983
+Max Client Total Throughput: clientName=JmsConsumer0, value=995983
+Min Average Client Throughput: clientName=JmsConsumer0, value=5533.238888888889
+Max Average Client Throughput: clientName=JmsConsumer0, value=5533.238888888889
+Min Average Client Throughput Excluding Min/Max: clientName=JmsConsumer0, value=5475.3
+Max Average Client Throughput Excluding Min/Max: clientName=JmsConsumer0, value=5475.3
+[INFO] Created performance report: /Users/ceposta/dev/idea-workspace/activemq/activemq-perftest/./JmsConsumer_numClients1_numDests1_equal.xml
+
+
+
+******************************************************
+1P -> 1C (virtual topic) :: 1 GB Heap :: Network of Brokers
+******************************************************
+
+Producer:
+#########################################
+####    SYSTEM THROUGHPUT SUMMARY    ####
+#########################################
+System Total Throughput: 755771
+System Total Clients: 1
+System Average Throughput: 4198.727777777778
+System Average Throughput Excluding Min/Max: 4155.35
+System Average Client Throughput: 4198.727777777778
+System Average Client Throughput Excluding Min/Max: 4155.35
+Min Client Throughput Per Sample: clientName=JmsProducer0, value=3017
+Max Client Throughput Per Sample: clientName=JmsProducer0, value=4791
+Min Client Total Throughput: clientName=JmsProducer0, value=755771
+Max Client Total Throughput: clientName=JmsProducer0, value=755771
+Min Average Client Throughput: clientName=JmsProducer0, value=4198.727777777778
+Max Average Client Throughput: clientName=JmsProducer0, value=4198.727777777778
+Min Average Client Throughput Excluding Min/Max: clientName=JmsProducer0, value=4155.35
+Max Average Client Throughput Excluding Min/Max: clientName=JmsProducer0, value=4155.35
+
+Consumer:
+#########################################
+####    SYSTEM THROUGHPUT SUMMARY    ####
+#########################################
+System Total Throughput: 755553
+System Total Clients: 1
+System Average Throughput: 4197.516666666666
+System Average Throughput Excluding Min/Max: 4154.0
+System Average Client Throughput: 4197.516666666666
+System Average Client Throughput Excluding Min/Max: 4154.0
+Min Client Throughput Per Sample: clientName=consumerA0, value=3041
+Max Client Throughput Per Sample: clientName=consumerA0, value=4792
+Min Client Total Throughput: clientName=consumerA0, value=755553
+Max Client Total Throughput: clientName=consumerA0, value=755553
+Min Average Client Throughput: clientName=consumerA0, value=4197.516666666666
+Max Average Client Throughput: clientName=consumerA0, value=4197.516666666666
+Min Average Client Throughput Excluding Min/Max: clientName=consumerA0, value=4154.0
+Max Average Client Throughput Excluding Min/Max: clientName=consumerA0, value=4154.0
+
+
+
+******************************************************
+1P -> 2C (virtual topic) :: 1 GB Heap :: Network of Brokers
+******************************************************
+
+Producer:
+#########################################
+####    SYSTEM THROUGHPUT SUMMARY    ####
+#########################################
+System Total Throughput: 468556
+System Total Clients: 1
+System Average Throughput: 2603.088888888889
+System Average Throughput Excluding Min/Max: 2575.55
+System Average Client Throughput: 2603.088888888889
+System Average Client Throughput Excluding Min/Max: 2575.55
+Min Client Throughput Per Sample: clientName=JmsProducer0, value=2197
+Max Client Throughput Per Sample: clientName=JmsProducer0, value=2760
+Min Client Total Throughput: clientName=JmsProducer0, value=468556
+Max Client Total Throughput: clientName=JmsProducer0, value=468556
+Min Average Client Throughput: clientName=JmsProducer0, value=2603.088888888889
+Max Average Client Throughput: clientName=JmsProducer0, value=2603.088888888889
+Min Average Client Throughput Excluding Min/Max: clientName=JmsProducer0, value=2575.55
+Max Average Client Throughput Excluding Min/Max: clientName=JmsProducer0, value=2575.55
+
+
+Consumer x 2:
+#########################################
+####    SYSTEM THROUGHPUT SUMMARY    ####
+#########################################
+System Total Throughput: 468612
+System Total Clients: 1
+System Average Throughput: 2603.4
+System Average Throughput Excluding Min/Max: 2576.6944444444443
+System Average Client Throughput: 2603.4
+System Average Client Throughput Excluding Min/Max: 2576.6944444444443
+Min Client Throughput Per Sample: clientName=consumerB0, value=2059
+Max Client Throughput Per Sample: clientName=consumerB0, value=2748
+Min Client Total Throughput: clientName=consumerB0, value=468612
+Max Client Total Throughput: clientName=consumerB0, value=468612
+Min Average Client Throughput: clientName=consumerB0, value=2603.4
+Max Average Client Throughput: clientName=consumerB0, value=2603.4
+Min Average Client Throughput Excluding Min/Max: clientName=consumerB0, value=2576.6944444444443
+Max Average Client Throughput Excluding Min/Max: clientName=consumerB0, value=2576.6944444444443
+
+
+******************************************************
+1P -> 3C (virtual topic) :: 1 GB Heap :: Network of Brokers
+******************************************************
+
+Producer:
+#########################################                                                                                                                                                                                              [4/201]
+####    SYSTEM THROUGHPUT SUMMARY    ####
+#########################################
+System Total Throughput: 282001
+System Total Clients: 1
+System Average Throughput: 1566.6722222222222
+System Average Throughput Excluding Min/Max: 1550.2333333333333
+System Average Client Throughput: 1566.6722222222222
+System Average Client Throughput Excluding Min/Max: 1550.2333333333333
+Min Client Throughput Per Sample: clientName=JmsProducer0, value=1114
+Max Client Throughput Per Sample: clientName=JmsProducer0, value=1845
+Min Client Total Throughput: clientName=JmsProducer0, value=282001
+Max Client Total Throughput: clientName=JmsProducer0, value=282001
+Min Average Client Throughput: clientName=JmsProducer0, value=1566.6722222222222
+Max Average Client Throughput: clientName=JmsProducer0, value=1566.6722222222222
+Min Average Client Throughput Excluding Min/Max: clientName=JmsProducer0, value=1550.2333333333333
+Max Average Client Throughput Excluding Min/Max: clientName=JmsProducer0, value=1550.2333333333333
+
+Consumer x 3:
+#########################################
+####    SYSTEM THROUGHPUT SUMMARY    ####
+#########################################
+System Total Throughput: 281780
+System Total Clients: 1
+System Average Throughput: 1565.4444444444443
+System Average Throughput Excluding Min/Max: 1549.0
+System Average Client Throughput: 1565.4444444444443
+System Average Client Throughput Excluding Min/Max: 1549.0
+Min Client Throughput Per Sample: clientName=consumerB0, value=1115
+Max Client Throughput Per Sample: clientName=consumerB0, value=1845
+Min Client Total Throughput: clientName=consumerB0, value=281780
+Max Client Total Throughput: clientName=consumerB0, value=281780
+Min Average Client Throughput: clientName=consumerB0, value=1565.4444444444443
+Max Average Client Throughput: clientName=consumerB0, value=1565.4444444444443
+Min Average Client Throughput Excluding Min/Max: clientName=consumerB0, value=1549.0
+Max Average Client Throughput Excluding Min/Max: clientName=consumerB0, value=1549.0
